@@ -5,6 +5,14 @@
  * For more details on building Java & JVM projects, please refer to https://docs.gradle.org/9.3.0/userguide/building_java_projects.html in the Gradle documentation.
  */
 
+dependencies {
+    implementation("org.slf4j:slf4j-api:1.7.36")
+    implementation("ch.qos.logback:logback-classic:1.2.10")
+    implementation("ch.qos.logback:logback-core:1.2.10")
+}
+
+
+
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     application
