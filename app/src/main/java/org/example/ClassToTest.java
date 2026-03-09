@@ -1,3 +1,5 @@
+package org.example;
+
 public class ClassToTest {
 
     public int add(int a, int b) {
